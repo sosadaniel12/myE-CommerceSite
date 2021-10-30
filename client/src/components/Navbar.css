@@ -11,7 +11,7 @@
 
 .navbar_logo h2 {
   color: #f4f4f4;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -48,7 +48,7 @@
   border-radius: 8px;
 }
 .cart_link:hover {
-  background-color: #dd219e;
+  background-color: #463fa7;
   color: #f4f4f4;
 }
 
@@ -69,7 +69,7 @@
 .hamburger_menu {
   width: 30px;
   height: 30px;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +83,7 @@
 }
 
 .hamburger_menu:hover > div {
-  background: #dd219e;
+  background: #463fa7;
 }
 
 @media (max-width: 960px) {
